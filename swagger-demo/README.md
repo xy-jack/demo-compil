@@ -1,0 +1,3 @@
+- 第一步：开启swagger2支持  @EnableSwagger2
+- 第二步：添加swagger2配置类 Swagger2Config.class
+- 第三步：在controller层对于的接口上添加相应的注解

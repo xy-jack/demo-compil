@@ -1,0 +1,7 @@
+datasource:
+  config:
+    username: 127.0.0.1
+    password: 987654
+    port: 3333
+
+

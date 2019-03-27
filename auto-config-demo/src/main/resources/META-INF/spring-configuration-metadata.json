@@ -1,0 +1,29 @@
+{
+  "groups": [{
+      "name": "datasource.config",
+      "type": "com.yd.config.DbProperties",
+      "sourceType": "com.yd.config.DbProperties"
+    }],
+  "properties": [
+    {
+      "name": "datasource.config.username",
+      "description": "用户名",
+      "type": "java.lang.String",
+      "sourceType": "com.yd.config.DbProperties"
+    },
+    {
+      "name": "datasource.config.password",
+      "description": "密码",
+      "type": "java.lang.String",
+      "sourceType": "com.yd.config.DbProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "datasource.config.port",
+      "description": "端口",
+      "type": "java.lang.Integer",
+      "sourceType": "com.yd.config.DbProperties",
+      "defaultValue": true
+    }],
+  "hints": []
+}
