@@ -1,24 +1,24 @@
 server:
   port: 1533
 
-#mybaits-plusÅäÖÃ£¬ĞŞ¸ÄÖ÷¼üÀàĞÍ£¬mapper.xml¡¢type ±ğÃûµÈ
+#mybaits-plusé…ç½®ï¼Œä¿®æ”¹ä¸»é”®ç±»å‹ï¼Œmapper.xmlã€type åˆ«åç­‰
 mybatis-plus:
   mapper-locations: classpath:/mapper/*Mapper.xml
-  #ÊµÌåÉ¨Ãè£¬¶à¸öpackageÓÃ¶ººÅ»òÕß·ÖºÅ·Ö¸ô
+  #å®ä½“æ‰«æï¼Œå¤šä¸ªpackageç”¨é€—å·æˆ–è€…åˆ†å·åˆ†éš”
   typeAliasesPackage: com.github.pig.admin.model.entity
-   # Êı¾İ¿âÏà¹ØÅäÖÃ
+  # æ•°æ®åº“ç›¸å…³é…ç½®
   global-config:
-    #Ö÷¼üÀàĞÍ  0 or AUTO :"Êı¾İ¿âID×ÔÔö",   1 or INPUT :"ÓÃ»§ÊäÈëID",     2 or ID_WORKER :"È«¾ÖÎ¨Ò»ID (Êı×ÖÀàĞÍÎ¨Ò»ID)",    3 or UUID :"È«¾ÖÎ¨Ò»ID UUID";
+    #ä¸»é”®ç±»å‹  0 or AUTO :"æ•°æ®åº“IDè‡ªå¢",   1 or INPUT :"ç”¨æˆ·è¾“å…¥ID",     2 or ID_WORKER :"å…¨å±€å”¯ä¸€ID (æ•°å­—ç±»å‹å”¯ä¸€ID)",    3 or UUID :"å…¨å±€å”¯ä¸€ID UUID";
     id-type: 0
-    #×Ö¶Î²ßÂÔ 0:"ºöÂÔÅĞ¶Ï",1:"·Ç NULL ÅĞ¶Ï"),2:"·Ç¿ÕÅĞ¶Ï"
+    #å­—æ®µç­–ç•¥ 0:"å¿½ç•¥åˆ¤æ–­",1:"é NULL åˆ¤æ–­"),2:"éç©ºåˆ¤æ–­"
     field-strategy: 1
-    #ÍÕ·åÏÂ»®Ïß×ª»»
+    #é©¼å³°ä¸‹åˆ’çº¿è½¬æ¢
     db-column-underline: true
-    #Ë¢ĞÂmapper µ÷ÊÔÉñÆ÷
+    #åˆ·æ–°mapper è°ƒè¯•ç¥å™¨
     refresh-mapper: true
-    #Êı¾İ¿â´óĞ´ÏÂ»®Ïß×ª»»
+    #æ•°æ®åº“å¤§å†™ä¸‹åˆ’çº¿è½¬æ¢
     #capital-mode: true
-  # Ô­ÉúÅäÖÃ
+  # åŸç”Ÿé…ç½®
   configuration:
     map-underscore-to-camel-case: true
     cache-enabled: true
